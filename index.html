@@ -10,6 +10,7 @@
   </head>
   <body>
     <div class="main">
+      <!-- Header -->
       <div class="header">
         <!-- Navbar Section -->
         <div class="navbar">
@@ -42,11 +43,16 @@
 
         <!-- Hero Section -->
         <div class="hero__section">
-          <img class="hero__img" src="./assets/images/slide-1.jpg" alt="" />
+          <div class="hero__img">
+            <img src="./assets/images/slide-1.jpg" alt="" />
+            <img src="./assets/images/slide-2.jpg" alt="" />
+            <img src="./assets/images/slide-3.jpg" alt="" />
+            <img src="./assets/images/slide-4.jpg" alt="" />
+          </div>
           <div class="hero__content">
             <h1>High-Quality Furniture Just For You</h1>
             <p>Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
-            <button class="btn-shop-now">Shop Now</button>
+            <button class="btn-cta">Shop Now</button>
           </div>
           <div class="info__box">
             <h5>Bohauss</h5>
@@ -58,14 +64,333 @@
           </div>
           <div class="hero__control prev"><i class="bx bx-chevron-left"></i></div>
           <div class="hero__control next"><i class="bx bx-chevron-right"></i></div>
-          <div class="slider__control">
-            <div class="active slider__control--dot">
-              <img src="./assets/images/slide-1.jpg" alt="" />
+          <div class="slider__dot">
+            <div class="active slider__dot--item"></div>
+            <div class="slider__dot--item"></div>
+            <div class="slider__dot--item"></div>
+            <div class="slider__dot--item"></div>
+          </div>
+        </div>
+        <div class="second__bg"></div>
+      </div>
+
+      <!-- Feature -->
+      <div class="feature">
+        <div class="feature--item">
+          <i class="bx bx-trophy"></i>
+          <div class="feature--content">
+            <h5>High Quality</h5>
+            <p>crafted from top materials</p>
+          </div>
+        </div>
+        <div class="feature--item">
+          <i class="bx bx-badge-check"></i>
+          <div class="feature--content">
+            <h5>Warrany Protection</h5>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+        <div class="feature--item">
+          <i class="bx bx-package"></i>
+          <div class="feature--content">
+            <h5>Free Shipping</h5>
+            <p>Order over 150 $</p>
+          </div>
+        </div>
+        <div class="feature--item">
+          <i class="bx bx-support"></i>
+          <div class="feature--content">
+            <h5>24 / 7 Support</h5>
+            <p>Dedicated support</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product -->
+      <div class="products">
+        <h1>Our Products</h1>
+        <div class="products__list">
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-1.png" alt="" />
+              <div class="discount">-30%</div>
             </div>
-            <div class="slider__control--dot">
-              <img src="./assets/images/slide-2.jpg" alt="" />
+            <div class="product__detail">
+              <h3>Syltherine</h3>
+              <p>Stylish cafe chair</p>
+              <div class="price">Rp 2.500.000 <span>Rp 3.500.000</span></div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-2.png" alt="" />
+            </div>
+            <div class="product__detail">
+              <h3>Leviosa</h3>
+              <p>Stylish cafe chair</p>
+              <div class="price">Rp 2.500.000</div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-3.png" alt="" />
+              <div class="discount">-50%</div>
+            </div>
+            <div class="product__detail">
+              <h3>Lolito</h3>
+              <p>Luxury big sofa</p>
+              <div class="price">Rp 7.000.500 <span>Rp 14.000.000</span></div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-4.png" alt="" />
+              <div class="new">New</div>
+            </div>
+            <div class="product__detail">
+              <h3>Respira</h3>
+              <p>Minimalist fan</p>
+              <div class="price">Rp 500.000</div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-5.png" alt="" />
+            </div>
+            <div class="product__detail">
+              <h3>Grifo</h3>
+              <p>Night lamp</p>
+              <div class="price">Rp 1.500.000</div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-6.png" alt="" />
+              <div class="new">New</div>
+            </div>
+            <div class="product__detail">
+              <h3>Muggo</h3>
+              <p>Small mug</p>
+              <div class="price">Rp 150.000</div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-7.png" alt="" />
+              <div class="discount">-50%</div>
+            </div>
+            <div class="product__detail">
+              <h3>Pingky</h3>
+              <p>Cute bed set</p>
+              <div class="price">Rp 7.000.000 <span>Rp 14.000.000</span></div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__list--item">
+            <div class="product__img">
+              <img src="./assets/images/product-8.png" alt="" />
+              <div class="new">New</div>
+            </div>
+            <div class="product__detail">
+              <h3>Potty</h3>
+              <p>Minimalist flower pot</p>
+              <div class="price">Rp 500.000</div>
+            </div>
+            <div class="product__overlay">
+              <button class="btn--add--cart">Add to cart</button>
+              <div class="interact">
+                <div class="interact--item">
+                  <i class="bx bxs-share-alt"></i>
+                  <p>Share</p>
+                </div>
+                <div class="interact--item">
+                  <i class="bx bx-heart"></i>
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn--show--more">Show More</button>
+      </div>
+
+      <!-- Inspirations -->
+      <div class="inspirations">
+        <div class="inspirations__content">
+          <h1>50+ Beautiful rooms inspiration</h1>
+          <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+          <button class="btn-cta">Explore More</button>
+        </div>
+        <div class="inspirations__img">
+          <img src="./assets/images/inspirations.png" alt="" />
+          <div class="info">
+            <div class="info__box">
+              <p>01 <span>-</span> Bed Room</p>
+              <h3>Inner Peace</h3>
+            </div>
+            <button class="btn-cta"><i class="bx bx-right-arrow-alt"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tips & trick -->
+      <div class="tips-trick">
+        <h1>Tips & Tricks</h1>
+        <div class="tips__list">
+          <div class="tips__list--slide">
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-1.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>How to create a living room to love</h3>
+                <p>20 jan 2020</p>
+              </div>
+            </div>
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-2.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>Solution for clean look working space</h3>
+                <p>10 jan 2020</p>
+              </div>
+            </div>
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-3.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>Make your cooking activity more fun with good setup</h3>
+                <p>20 jan 2020</p>
+              </div>
+            </div>
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-3.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>How to create a living room to love</h3>
+                <p>20 jan 2020</p>
+              </div>
+            </div>
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-1.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>How to create a living room to love</h3>
+                <p>20 jan 2020</p>
+              </div>
+            </div>
+            <div class="tips__item">
+              <div class="tips__item--img">
+                <img src="./assets/images/tips-2.png" alt="" />
+              </div>
+              <div class="tips__item--content">
+                <h3>How to create a living room to love</h3>
+                <p>20 jan 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="tips__control tips--prev"><i class="bx bx-chevron-left"></i></div>
+          <div class="tips__control tips--next"><i class="bx bx-chevron-right"></i></div>
+        </div>
+        <div class="tips__dot">
+          <div class="active tips__dot--item"></div>
+          <div class="tips__dot--item"></div>
+          <div class="tips__dot--item"></div>
+          <div class="tips__dot--item"></div>
         </div>
       </div>
     </div>

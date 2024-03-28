@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 100px;
+}
+
+.feature .feature--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 85px;
+}
+
+.feature .feature--item i {
+  font-size: 40px;
+  padding: 40px 20px;
+  color: #3a3a3a;
+}
+
+.feature .feature--item .feature--content h5 {
+  font-size: 18px;
+  color: #3a3a3a;
+  margin-bottom: 4px;
+}
+
+.feature .feature--item .feature--content p {
+  font-size: 16px;
+  color: #898989;
+}
