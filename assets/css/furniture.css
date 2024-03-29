@@ -1,0 +1,31 @@
+.furniture {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.furniture p {
+  font-size: 20px;
+  color: #616161;
+  margin-bottom: 8px;
+}
+
+.furniture h1 {
+  font-size: 40px;
+  color: #3a3a3a;
+}
+
+.furniture .furniture--wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.furniture .furniture--wrapper .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,98 @@
+hr {
+  background: #d8d8d8;
+  height: 1px;
+  border: none;
+  margin: 100px 100px 0;
+}
+
+.footer {
+  display: flex;
+  padding: 100px 100px 60px;
+}
+
+.footer .footer__contact {
+  width: 25%;
+  padding-right: 32px;
+}
+
+.footer h1 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #616161;
+}
+
+.footer .footer__contact .address {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.footer .footer__contact .phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.footer .footer__contact i {
+  font-size: 20px;
+  color: #898989;
+  margin-right: 8px;
+}
+
+.footer .footer__menu,
+.footer .footer__account,
+.footer .footer__social {
+  display: flex;
+  flex-direction: column;
+  width: 16.67%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #616161;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.footer .footer__email {
+  width: 25%;
+}
+
+.footer .footer__email .footer__input {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer__email .footer__input button {
+  width: 48px;
+  height: 100%;
+  padding: 12px 0;
+  font-size: 24px;
+  color: #fff;
+  background: #e89f71;
+  border: unset;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footer .footer__email .footer__input button:hover {
+  background: #fff;
+  color: #e89f71;
+}
+
+.footer .footer__email .footer__input .input input {
+  background: #f4f5f7;
+  border: none;
+  padding: 16px;
+  font-size: 16px;
+  color: #828282;
+}
+
+.footer .footer__email .footer__input .input input:focus {
+  outline: none;
+}

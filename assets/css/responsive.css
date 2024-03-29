@@ -1,0 +1,278 @@
+@media (max-width: 991px) {
+  .header {
+    height: 700px;
+  }
+
+  .header .hero__section {
+    height: 560px;
+  }
+
+  .header .second__bg {
+    width: 700px;
+    height: 680px;
+  }
+
+  .header .navbar {
+    padding: 28px 60px;
+  }
+
+  .header .navbar .menu {
+    display: none;
+  }
+
+  .header .navbar .search__bar {
+    display: none;
+  }
+
+  .header .navbar .icons .icons-menu {
+    display: block;
+  }
+
+  .header .hero__section .hero__content {
+    width: 400px;
+    height: 460px;
+    left: 50px;
+  }
+
+  .header .hero__section .hero__content h1 {
+    font-size: 36px;
+  }
+
+  .header .hero__section .hero__content p {
+    font-size: 16px;
+  }
+
+  .header .hero__section .info__box {
+    right: 50px;
+  }
+
+  .feature {
+    margin: 40px 60px;
+  }
+
+  .products {
+    width: 96%;
+  }
+
+  .products .products__list .products__list--item .product__img {
+    height: 212px;
+  }
+
+  .products .products__list .products__list--item .product__detail {
+    padding: 8px;
+  }
+
+  .products .products__list .products__list--item .product__detail .price {
+    font-size: 16px;
+  }
+
+  .products .products__list .products__list--item .product__detail .price span {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .inspirations {
+    height: 560px;
+  }
+
+  .inspirations .inspirations__content {
+    margin: 0 100px;
+  }
+
+  .inspirations .inspirations__img {
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+
+  hr {
+    margin: 50px 50px 0;
+  }
+
+  .footer {
+    padding: 40px 20px 40px;
+  }
+
+  .footer .footer__contact {
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 540px;
+  }
+
+  .header .second__bg {
+    width: 500px;
+    height: 530px;
+  }
+
+  .header .hero__section {
+    height: 420px;
+  }
+
+  .header .hero__section .hero__content {
+    display: none;
+  }
+
+  .header .hero__section .info__box {
+    display: none;
+  }
+
+  .feature {
+    margin: 20px 40px;
+    flex-wrap: wrap;
+  }
+
+  .feature .feature--item {
+    justify-content: flex-start;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+
+  .products .products__list .products__list--item {
+    width: 50%;
+  }
+
+  .inspirations {
+    flex-wrap: wrap;
+    height: 670px;
+  }
+
+  .inspirations .inspirations__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 32px 100px;
+  }
+
+  .inspirations .inspirations__img {
+    width: 100%;
+    margin-left: 100px;
+    height: 50%;
+  }
+
+  .tips-trick .tips__list .tips__list--slide .tips__item .tips__item--img {
+    height: 50%;
+  }
+
+  .tips-trick .tips__list .tips__list--slide .tips__item .tips__item--content h3 {
+    font-size: 12px;
+  }
+
+  .tips-trick .tips__dot {
+    margin-top: 8px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer .footer__contact {
+    width: 50%;
+    margin-bottom: 8px;
+  }
+
+  .footer .footer__menu {
+    margin-bottom: 8px;
+    width: 25%;
+  }
+
+  .footer .footer__account {
+    margin-bottom: 8px;
+    width: 25%;
+  }
+
+  .footer .footer__social {
+    margin-bottom: 8px;
+    width: 25%;
+  }
+
+  .footer .footer__email {
+    width: 75%;
+    margin-bottom: 8px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tips-trick .tips__list .tips__list--slide .tips__item .tips__item--img {
+    height: 40%;
+  }
+
+  .inspirations .inspirations__content {
+    margin: 16px 100px;
+  }
+
+  .inspirations .inspirations__img {
+    height: 28%;
+  }
+
+  .inspirations .inspirations__img .info {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .header {
+    height: 380px;
+  }
+
+  .header .navbar {
+    padding: 16px 40px;
+  }
+
+  .header .hero__section {
+    height: 250px;
+  }
+
+  .header .second__bg {
+    width: 280px;
+    height: 360px;
+  }
+
+  .feature {
+    margin: 20px;
+  }
+
+  .products .products__list .products__list--item .product__img {
+    height: 180px;
+  }
+
+  .tips-trick .tips__list .tips__list--slide .tips__item .tips__item--content p {
+    font-size: 8px;
+  }
+
+  .tips-trick .tips__list .tips__list--slide .tips__item .tips__item--content {
+    padding: 8px;
+  }
+
+  .tips-trick .tips__dot {
+    margin-top: 4px;
+  }
+
+  .tips-trick .tips__list .tips__control {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .footer .footer__menu {
+    width: 50%;
+  }
+
+  .footer .footer__account {
+    width: 50%;
+  }
+
+  .footer .footer__social {
+    width: 50%;
+  }
+
+  .footer .footer__email {
+    width: 100%;
+    padding-left: 0;
+  }
+}

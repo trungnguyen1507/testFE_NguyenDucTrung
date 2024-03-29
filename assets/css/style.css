@@ -4,6 +4,9 @@
 @import './product.css';
 @import './inspirations.css';
 @import './tips.css';
+@import './furniture.css';
+@import './footer.css';
+@import './responsive.css';
 
 * {
   padding: 0;
@@ -19,4 +22,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* display: inline-block; */
+  vertical-align: middle;
 }
